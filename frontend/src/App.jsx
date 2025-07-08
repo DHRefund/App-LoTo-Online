@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import io from "socket.io-client";
 import "./App.css";
 
-const SOCKET_URL = "http://localhost:5000"; // Đổi nếu backend chạy cổng khác
+const SOCKET_URL = "https://app-loto-online.onrender.com"; // Đổi nếu backend chạy cổng khác
 
 function App() {
   const [step, setStep] = useState("join"); // join | waiting | playing
